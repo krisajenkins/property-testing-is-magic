@@ -12,10 +12,13 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "aff"
+  , "console"
   , "debug"
   , "effect"
+  , "either"
   , "prelude"
+  , "quickcheck"
   , "simple-json"
   , "spec"
   , "spec-quickcheck"
